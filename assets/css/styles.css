@@ -4,6 +4,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   background-color: #053f1a;
   color: azure;
+  overflow: hidden;
 }
 
 .nav img {
@@ -31,12 +32,13 @@ body {
 
 .phone__cam {
   display: flex;
+  padding-top: 0.5rem;
   justify-content: center;
 }
 
 .screen {
   width: 90%;
-  height: 85%;
+  height: 82%;
   background-color: gainsboro;
   color: black;
   display: block;
@@ -47,7 +49,7 @@ body {
     font-size: 1.1rem;
     font-weight: 600;
     display: block;
-    margin: 0 auto;
+    margin: 1rem 1rem;
 }
 
 #user-input {
@@ -56,6 +58,11 @@ body {
     border-radius: 1.5rem;
     display: block;
     margin: 0 auto;
+}
+
+#results-div {
+    display: block;
+    margin: 1rem 1rem;
 }
 
 .buttons {
